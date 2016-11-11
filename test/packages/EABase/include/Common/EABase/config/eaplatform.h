@@ -270,11 +270,11 @@
 		#define EA_PROCESSOR_POWERPC_32 1
 		#define EA_SYSTEM_BIG_ENDIAN 1
 		#define EA_PLATFORM_DESCRIPTION "Linux on PowerPC"
-    #elif defined(__arm__)
-        #define EA_ABI_ARM_APPLE 1
-        #define EA_PROCESSOR_ARM32 1
-        #define EA_SYSTEM_LITTLE_ENDIAN 1
-        #define EA_PLATFORM_DESCRIPTION "Linux on ARM"
+	#elif defined(__arm__)
+		#define EA_ABI_ARM_APPLE 1
+		#define EA_PROCESSOR_ARM32 1
+		#define EA_SYSTEM_LITTLE_ENDIAN 1
+		#define EA_PLATFORM_DESCRIPTION "Linux on ARM"
 	#else
 		#error Unknown processor
 		#error Unknown endianness
